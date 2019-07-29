@@ -2,7 +2,7 @@
  * @Author: hzq
  * @Date: 2019-02-22 14:40:20
  * @Last Modified by: hzq
- * @Last Modified time: 2019-07-29 15:17:05
+ * @Last Modified time: 2019-07-29 17:00:29
  * @文件说明: 背景图
  */
 <template>
@@ -62,8 +62,8 @@
                         2}/format,jpg/quality,Q_80)`
                 }
                 return {
-                    width: this.$tool.px(this.w),
-                    height: this.$tool.px(this.h),
+                    width: this.$tool.rem(this.w),
+                    height: this.$tool.rem(this.h),
                     backgroundImage: url,
                     backgroundSize: this.size,
                     backgroundPosition: this.pX + ' ' + this.pY,
